@@ -1,0 +1,39 @@
+# Aliases
+# =====================
+
+# LS
+alias l="ls -lah"
+
+# Git
+alias gcl="git clone"
+alias gst="git status"
+alias gl="git pull"
+alias gp="git push"
+alias gd="git diff | mate"
+alias gc="git commit -v"
+alias gca="git commit -v -a"
+alias gb="git branch"
+alias gba="git branch -a"
+alias gcm="git commit -m"
+alias gnb="git checkout -b"
+alias gad="git add ."
+alias lg1="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(black)%s%C(reset) %C(red)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+alias lg2="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all"
+
+
+# Shortcuts
+alias labs="cd /Users/$USER/Development/flatiron-labs"
+alias ironboard="cd /Users/$USER/Development/flatiron-labs/ironboard"
+alias desktop="cd /Users/$USER/Desktop/$@"
+
+# Misc.
+alias pys="python -m SimpleHTTPServer"
+alias be="bundle exec"
+
+# Deploying
+
+# Docker
+alias dc="docker-compose up"
+
+# Good feels
+alias support="cowsay you are doing awesome"
