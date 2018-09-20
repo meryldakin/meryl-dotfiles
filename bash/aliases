@@ -17,9 +17,9 @@ alias gba="git branch -a"
 alias gcm="git commit -m"
 alias gnb="git checkout -b"
 alias gad="git add ."
+alias gap="git add -p"
 alias lg1="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(black)%s%C(reset) %C(red)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
 alias lg2="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all"
-
 
 # Shortcuts
 alias labs="cd /Users/$USER/Development/flatiron-labs"
@@ -34,6 +34,3 @@ alias be="bundle exec"
 
 # Docker
 alias dc="docker-compose up"
-
-# Good feels
-alias support="cowsay you are doing awesome"
